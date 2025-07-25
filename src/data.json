@@ -1,59 +1,59 @@
 {
   "theme": {
-    "color": "#010125",
+    "color": "#773118",
     "text": "white"
   },
   "nav": {
-    "businessname": "Smoke Bayou",
-    "businessname2": "BBQ & Soul Food"
+    "businessname": "Bistro Italia",
+    "businessname2": "Italian Restaurant"
   },
   "welcome": {
-    "businessname": "Smoke Bayou",
-    "description": "At Smoke Bayou, we serve slow-smoked BBQ classics infused with Louisiana soul—ribs, brisket, pulled pork, sausage and chicken, all cooked to perfection.",
-    "description2": "Try our loaded nachos, tender meat platters, and creative burritos. Everything is smoked in-house and paired with soulful sides like mac and cheese, collards, and yams.",
-    "description3": "Come hungry. Leave full and happy. Always cooked fresh, always full of flavor.",
-    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/wUuQ_tbDSMEZOfUGiEA1ng/o.jpg",
-    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/DDB44O4yAsiWJPjJ5lUnZw/o.jpg",
-    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/Q70_8_BDmBvyCYl2_2Gupw/o.jpg"
+    "businessname": "Bistro Italia",
+    "description": "At Bistro Italia, enjoy authentic Italian cuisine made from scratch with fresh, high-quality ingredients. From pasta to pizza, everything is prepared with passion.",
+    "description2": "Indulge in classics like lasagna, chicken parmesan, fettuccine alfredo, and handmade calzones, or explore our signature entrées and seafood dishes.",
+    "description3": "Relax in a cozy, family-friendly atmosphere and savor a true taste of Italy right here in Baton Rouge.",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/WDLmMa-qY6IoTwG3ZpCNbg/o.jpg",
+    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/roAht58SFJ0VYcUK5G-iUA/o.jpg",
+    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/l46pEOmo-pbJPbQjUWkVPQ/o.jpg"
   },
   "aboutussection": {
-    "businessname": "Smoke Bayou",
-    "aboutus": "Smoke Bayou is a locally-owned Baton Rouge BBQ spot known for bold bayou flavor and hearty smoked meats, served up with soul food sides.",
-    "aboutus2": "Every dish—from ribs to brisket to banana pudding—is made fresh, with care, and steeped in Southern tradition.",
-    "aboutusimage": "https://s3-media0.fl.yelpcdn.com/bphoto/ckSR5fOYACboL6Q0aKOHDA/o.jpg",
-    "imageinsidestore": "https://s3-media0.fl.yelpcdn.com/bphoto/ZT20PMTjt7WwA1g3J3tS5g/o.jpg",
+    "businessname": "Bistro Italia",
+    "aboutus": "Bistro Italia is a warm, welcoming spot in Baton Rouge serving hearty Italian fare made from scratch, including pastas, pizzas, and flavorful entrées.",
+    "aboutus2": "Locally loved for its generous portions, family atmosphere, and friendly service—every meal feels like Sunday dinner.",
+    "aboutusimage": "https://s3-media0.fl.yelpcdn.com/bphoto/lXpKar2B3LRcPrvYsT7VUA/o.jpg",
+    "imageinsidestore": "https://s3-media0.fl.yelpcdn.com/bphoto/JGkF6Xw_LW9PZpuu-Dzj7A/o.jpg",
     "socmed": {
-      "instagram": "https://www.instagram.com/smokebayou/?hl=en",
-      "facebook": "https://www.facebook.com/p/Smoke-bayou-100063737854696/",
-      "doordash": "https://www.doordash.com/en/store/smoke-bayou-baton-rouge-25994820/70783953/?srsltid=AfmBOoqRFjPCcVhOud3SNLijHThasyZwP-bjwhVbcIyYN4CHIBVov0Lh",
+      "instagram": "https://www.instagram.com/explore/locations/276860050/bistro-italia/",
+      "facebook": "https://www.facebook.com/bistroitaliaBR/",
+      "doordash": "",
       "ubereats": ""
     }
   },
   "menu": {
-    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/G5Ppq8PUPjrHcFVUyyeuVw/o.jpg"
+    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/iXM5bq1Cyce2lpr0rGxKVw/o.jpg"
   },
   "gallery": {
-    "image1": "https://s3-media0.fl.yelpcdn.com/bphoto/Kz1FWDI6qADJkKYJsLe8rw/o.jpg",
-    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/vTGjk9hG6pqShhPZu-9cNA/o.jpg",
-    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/nlYCXthJbLi6_xiEphhWNQ/o.jpg"
+    "image1": "https://s3-media0.fl.yelpcdn.com/bphoto/864IFwJY25jaWlvdimH3-Q/o.jpg",
+    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/E9cpWxQXSsB5JgPWv_ScHA/o.jpg",
+    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/jKE5EYg_9sfnUMdrfaj3kA/o.jpg"
   },
   "contact": {
-    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/IozbvqkQv4DXBGDQcVkCiw/o.jpg",
-    "phone": "+1 (225) 335-7208",
+    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/otS69C1DsiG3npNztzqsOQ/o.jpg",
+    "phone": "+1 (225) 227-2695",
     "email": "",
     "hours": {
-      "mon": "11:00 AM – 6:00 PM",
-      "tue": "11:00 AM – 6:00 PM",
-      "wed": "11:00 AM – 6:00 PM",
-      "thu": "11:00 AM – 6:00 PM",
-      "fri": "11:00 AM – 6:00 PM",
-      "sat": "12:00 PM – 6:00 PM",
+      "mon": "Closed",
+      "tue": "11:00 AM – 2:00PM & 5:00PM - 9:00 PM",
+      "wed": "11:00 AM – 2:00PM & 5:00PM - 9:00 PM",
+      "thu": "11:00 AM – 2:00PM & 5:00PM - 9:00 PM",
+      "fri": "11:00 AM – 2:00PM & 5:00PM - 9:00 PM",
+      "sat": "4:00PM 9:00 PM",
       "sun": "Closed"
     },
-    "address": "10655 Coursey Blvd Baton Rouge, LA 70816",
-    "businessimage": "https://s3-media0.fl.yelpcdn.com/bphoto/xfVhb8zvQdE379BO0x3XeA/o.jpg"
+    "address": "11903 Coursey Blvd, Baton Rouge, LA 70817",
+    "businessimage": "https://s3-media0.fl.yelpcdn.com/bphoto/nFsCwrJU6o9sDlqT-GHLfg/o.jpg"
   },
   "footer": {
-    "businessname": "Smoke Bayou"
+    "businessname": "Bistro Italia"
   }
 }

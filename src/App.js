@@ -1,7 +1,7 @@
 import "./App.css";
 import { Link, Routes, Route } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBurger } from "@fortawesome/free-solid-svg-icons";
+import { faPizzaSlice } from "@fortawesome/free-solid-svg-icons";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -24,7 +24,7 @@ function App() {
               className="navbar-brand d-flex align-items-center"
               style={{ color: data.theme.color }}
             >
-              <FontAwesomeIcon icon={faBurger} size="xl" />
+              <FontAwesomeIcon icon={faPizzaSlice} size="xl" />
               <span className="ms-3 lh-1 fw-semibold">
                 {data.nav.businessname}
                 <br></br>
