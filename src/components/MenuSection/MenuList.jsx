@@ -1,5 +1,7 @@
 import React from "react";
 import data from "../../data.json";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MenuList = () => {
   const sectionStyle = {
@@ -25,6 +27,25 @@ const MenuList = () => {
     fontWeight: "bold",
   };
 
+  const buttonStyle = {
+    backgroundColor: data.theme.color,
+    color: "#fff",
+    padding: "10px 20px",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
+    textDecoration: "none",
+    display: "inline-block",
+    fontWeight: "bold",
+    marginBottom: 10,
+  };
+
+  const centerStyle = {
+    display: "flex",
+    justifyContent: "center",
+    marginTop: "20px", // optional spacing
+  };
+
   return (
     <div
       style={{
@@ -35,115 +56,36 @@ const MenuList = () => {
         color: "#333",
       }}
     >
-      <h1 style={{ color: data.theme.color }}>
+      <h1 style={{ color: data.theme.color, textAlign: "center" }}>
         {data.welcome.businessname} Menu
       </h1>
 
-      {/* Signature Smoothies */}
-      <div style={sectionStyle}>
-        <h2 style={headerStyle}>Signature Smoothies</h2>
-        <ul style={listStyle}>
-          <li style={itemStyle}>
-            <span>Daisy Duke (Strawberry, Watermelon, Pomegranate)</span>
-            <span style={priceStyle}>$12.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>L A Sunrise (Strawberry, Orange, Pineapple)</span>
-            <span style={priceStyle}>$9.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Peach on the Beach (Peach, Mango, Pina Colada)</span>
-            <span style={priceStyle}>$12.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Berry Blitz (Blueberry, Raspberry, Vanilla)</span>
-            <span style={priceStyle}>$10.00</span>
-          </li>
-        </ul>
-      </div>
+      {data.menu.menufilelink && (
+        <div style={centerStyle}>
+          <a href="/menu.pdf" download style={buttonStyle}>
+            <FontAwesomeIcon
+              icon={faDownload}
+              size="lg"
+              style={{ marginRight: 5 }}
+            />
+            Download Menu
+          </a>
+        </div>
+      )}
 
-      {/* Loaded Teas */}
-      <div style={sectionStyle}>
-        <h2 style={headerStyle}>Loaded Teas</h2>
-        <ul style={listStyle}>
-          <li style={itemStyle}>
-            <span>Tropical Thunder (Passion Fruit, Pineapple, Green Tea)</span>
-            <span style={priceStyle}>$9.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Galaxy Pop (Cherry, Blue Raspberry, Aloe)</span>
-            <span style={priceStyle}>$9.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Island Energy (Peach, Guava, Herbal Tea Base)</span>
-            <span style={priceStyle}>$9.00</span>
-          </li>
-        </ul>
-      </div>
-
-      {/* Protein Coffee */}
-      <div style={sectionStyle}>
-        <h2 style={headerStyle}>Protein Coffee</h2>
-        <ul style={listStyle}>
-          <li style={itemStyle}>
-            <span>Mocha Power (Mocha, Protein Blend, Iced Coffee)</span>
-            <span style={priceStyle}>$8.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Vanilla Wake-Up (Vanilla, Almond Milk, 15g Protein)</span>
-            <span style={priceStyle}>$8.00</span>
-          </li>
-        </ul>
-      </div>
-
-      {/* Feel Better Shots */}
-      <div style={sectionStyle}>
-        <h2 style={headerStyle}>Feel Better Shots</h2>
-        <ul style={listStyle}>
-          <li style={itemStyle}>
-            <span>Immune Boost Shot (Vitamin C, Zinc, Elderberry)</span>
-            <span style={priceStyle}>$5.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Focus Shot (L-Theanine, B12, Green Tea Extract)</span>
-            <span style={priceStyle}>$5.00</span>
-          </li>
-        </ul>
-      </div>
-
-      {/* Protein Snacks */}
-      <div style={sectionStyle}>
-        <h2 style={headerStyle}>Protein Snacks</h2>
-        <ul style={listStyle}>
-          <li style={itemStyle}>
-            <span>Chocolate Peanut Butter Bar</span>
-            <span style={priceStyle}>$4.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Almond Crunch Energy Bites (3‑pack)</span>
-            <span style={priceStyle}>$3.50</span>
-          </li>
-        </ul>
-      </div>
-
-      {/* Add-Ons & Boosters */}
-      <div style={sectionStyle}>
-        <h2 style={headerStyle}>Add-Ons & Boosters</h2>
-        <ul style={listStyle}>
-          <li style={itemStyle}>
-            <span>Add Collagen</span>
-            <span style={priceStyle}>$1.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Add Extra Protein</span>
-            <span style={priceStyle}>$1.50</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Add Fiber Blend</span>
-            <span style={priceStyle}>$1.00</span>
-          </li>
-        </ul>
-      </div>
+      {Object.entries(data.menu.sections).map(([section, items]) => (
+        <div style={sectionStyle} key={section}>
+          <h2 style={headerStyle}>{section}</h2>
+          <ul style={listStyle}>
+            {items.map((item, idx) => (
+              <li style={itemStyle} key={idx}>
+                <span>{item.name}</span>
+                <span style={priceStyle}>{item.price}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 };

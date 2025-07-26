@@ -1,59 +1,166 @@
 {
   "theme": {
-    "color": "#28A745",
+    "color": "#865c44",
     "text": "white"
   },
   "nav": {
-    "businessname": "Healthy Vibes",
-    "businessname2": "Juice & Smoothie Bar"
+    "businessname": "Jones Creek Cafe & Oyster Bar",
+    "businessname2": "Seafood • Po‑Boys • Creole"
   },
   "welcome": {
-    "businessname": "Healthy Vibes",
-    "description": "At Healthy Vibes, enjoy nourishing juices, smoothies, loaded teas, protein‑rich meal replacement shakes, and wellness shots made from premium ingredients.",
-    "description2": "From energizing teas to hydration-focused blends, each drink is crafted to support health, fitness, and flavor.",
-    "description3": "Stop in for a wellness boost in a vibrant, community‑oriented setting in Baton Rouge.",
-    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/Xr31nJKn6fnATJiF0beeSA/o.jpg", 
-    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/1SA_7qmxVOzGxAJA0idBKA/o.jpg", 
-    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/PVmdjtVY2d2hyXlRI-Heqw/o.jpg"
+    "businessname": "Jones Creek Cafe & Oyster Bar",
+    "description": "A Baton Rouge favorite serving fresh Louisiana seafood, oysters, Creole‑style po’boys, gumbo, and coastal specialties since 1980.",
+    "description2": "Join us for char‑broiled oysters, hearty dinners, po‑boys, and classic seafood combos in a laid back, family‑friendly setting.",
+    "description3": "Enjoy daily lunch and dinner specials, Sunday brunch, and a full bar—including frozen cocktails and bar bites.",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/bURgKczKWSW559rn0qo38Q/o.jpg",
+    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/iBnOV7R_9jbx0jGnkzlqag/o.jpg",
+    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/hFxWFCg_46KMn9RwlPf4zA/o.jpg"
   },
   "aboutussection": {
-    "businessname": "Healthy Vibes",
-    "aboutus": "Healthy Vibes is a local Baton Rouge spot specializing in wholesome drinks like Herbalife‑inspired meal shakes, loaded teas, smoothies, protein coffee and more.",
-    "aboutus2": "Known for a friendly owner, upbeat atmosphere, and a community vibe, ideal for health-conscious locals.",
-    "aboutusimage": "https://s3-media0.fl.yelpcdn.com/bphoto/1jWRaQy8lZKZ8q_a-Cb6bg/o.jpg",
-    "imageinsidestore": "https://s3-media0.fl.yelpcdn.com/bphoto/5QT33T2xaMV5bfzHV8K23A/o.jpg",
+    "businessname": "Jones Creek Cafe & Oyster Bar",
+    "aboutus": "Located at 15005 Market St in Baton Rouge, we’ve been a neighborhood seafood destination for decades. Our chefs work with the freshest Gulf ingredients.",
+    "aboutus2": "From family dinners to group gatherings, our hospitality, live entertainment, and covered patio offer a welcoming vibe.",
+    "aboutusimage": "https://s3-media0.fl.yelpcdn.com/bphoto/lL42kwQLHZRZG6OUPZc1Tw/o.jpg",
+    "imageinsidestore": "https://s3-media0.fl.yelpcdn.com/bphoto/bNpcyC_CP-ufDGcJLUnTug/o.jpg",
     "socmed": {
-      "instagram": "https://www.instagram.com/healthy_vibes_br/?hl=en",
-      "facebook": "https://www.facebook.com/HealthyVibesBR/?ref=pl_edit_xav_ig_profile_page_web#",
+      "instagram": "",
+      "facebook": "",
       "doordash": "",
       "ubereats": ""
     }
   },
   "menu": {
-    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/X5sdgaJIkGvUaDdenvePkw/o.jpg"
+    "menufilelink":"",
+    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/VgAB8pMDJefJc-J0WVaZbQ/o.jpg",
+    "sections": {
+      "Appetizers": [
+        { "name": "Char‑Broiled Oysters (½ doz)", "price": "$13.50" },
+        { "name": "Char‑Broiled Oysters (Dozen)", "price": "$19.95" },
+        { "name": "Oysters on the Half Shell (½ doz)", "price": "$10.50" },
+        { "name": "Oysters on the Half Shell (Dozen)", "price": "$16.50" },
+        { "name": "JCC Wings", "price": "$15.95" },
+        { "name": "Jack Daniel’s Shrimp", "price": "$15.50" },
+        { "name": "Bacon‑Wrapped Shrimp Bienville", "price": "$14.50" },
+        { "name": "Market St. Crab Cakes", "price": "$14.25" },
+        { "name": "Spinach & Artichoke Dip", "price": "$13.95" },
+        { "name": "Shrimp Cocktail", "price": "$13.95" }
+      ],
+      "Gumbo & Soup": [
+        { "name": "Creole Seafood & Sausage Gumbo (Cup)", "price": "$9.95" },
+        { "name": "Creole Seafood & Sausage Gumbo (Bowl)", "price": "$11.95" },
+        { "name": "Chicken & Sausage Gumbo (Cup)", "price": "$7.95" },
+        { "name": "Chicken & Sausage Gumbo (Bowl)", "price": "$9.95" },
+        { "name": "Shrimp & Corn Soup (Cup)", "price": "$9.95" },
+        { "name": "Shrimp & Corn Soup (Bowl)", "price": "$11.95" },
+        { "name": "French Onion Soup (Cup)", "price": "$7.95" },
+        { "name": "French Onion Soup (Bowl)", "price": "$9.95" }
+      ],
+      "Salads": [
+        { "name": "Caesar Salad", "price": "$12.95" },
+        { "name": "Sensation Salad", "price": "$13.95" },
+        { "name": "Chef Salad", "price": "$13.95" },
+        { "name": "Grilled Chicken Pasta Salad", "price": "$14.95" },
+        { "name": "Shrimp Remoulade Salad", "price": "$14.95" },
+        { "name": "Seafood Salad", "price": "$16.95" }
+      ],
+      "Pasta Dinners": [
+        { "name": "Pasta Baton Rouge", "price": "$22.95" },
+        { "name": "Shrimp Fettuccine", "price": "$19.95" },
+        { "name": "Crawfish Fettuccine", "price": "$19.95" },
+        { "name": "Chicken & Andouille Pasta", "price": "$18.95" }
+      ],
+      "Po‑Boys": [
+        { "name": "Soft Shell Crab Po‑Boy", "price": "$15.95" },
+        { "name": "Boiled Shrimp with Provolone", "price": "$13.95" },
+        { "name": "George’s Combo Po‑Boy", "price": "$13.95" },
+        { "name": "Oyster Po‑Boy", "price": "$12.95" },
+        { "name": "Shrimp Po‑Boy", "price": "$11.95" },
+        { "name": "Catfish Po‑Boy", "price": "$10.95" },
+        { "name": "Crawfish Po‑Boy", "price": "$9.95" },
+        { "name": "Hot Roast Beef Po‑Boy", "price": "$11.95" },
+        { "name": "Sausage Po‑Boy", "price": "$9.95" },
+        { "name": "Regular Hamburger", "price": "$9.95" }
+      ],
+      "Seafood Dinners": [
+        { "name": "Seafood Platter", "price": "$24.95" },
+        { "name": "Soft Shell Crabs Dinner", "price": "$18.95" },
+        { "name": "Oysters Dinner", "price": "$19.95" },
+        { "name": "Shrimp Dinner", "price": "$18.95" },
+        { "name": "Catfish Dinner", "price": "$16.95" },
+        { "name": "Crawfish Dinner", "price": "$17.95" }
+      ],
+      "Seafood Specialties": [
+        { "name": "Grilled Redfish on the Half‑Shell", "price": "$21.95" },
+        { "name": "Boiled & Chilled Shrimp", "price": "$18.95" },
+        { "name": "Grilled Tilapia or Redfish", "price": "$19.95" },
+        { "name": "Catfish Acadian (with étouffée over rice)", "price": "$18.95" },
+        { "name": "Pecan‑Crusted Tilapia", "price": "$19.95" },
+        { "name": "Fish Almondine", "price": "$19.95" }
+      ],
+      "Lite Choices": [
+        { "name": "The Creek (grilled chicken on onion roll)", "price": "$12.95" },
+        { "name": "Grilled Chicken Wrap", "price": "$11.95" },
+        { "name": "Fish Wrap", "price": "$11.95" },
+        { "name": "Shrimp Wrap", "price": "$11.95" },
+        { "name": "Grilled Chicken Breast (dinner)", "price": "$11.95" }
+      ],
+      "Kid’s Menu": [
+        { "name": "Fried Catfish (under 12)", "price": "$7.95" },
+        { "name": "Fried Shrimp (under 12)", "price": "$7.95" },
+        { "name": "Cheese Quesadilla or Grilled Cheese", "price": "$5.95" },
+        { "name": "Chicken Tenders", "price": "$5.95" },
+        { "name": "Hamburger", "price": "$5.95" }
+      ],
+      "Sides & Add‑Ons": [
+        { "name": "Tiger Fries", "price": "$5.50" },
+        { "name": "Sweet Potato Fries", "price": "$5.50" },
+        { "name": "Onion Rings", "price": "$6.95" },
+        { "name": "Dinner Salad", "price": "$4.50" },
+        { "name": "Steamed Vegetables", "price": "$5.00" },
+        { "name": "Bread", "price": "$3.00" },
+        { "name": "Add Sautéed Shrimp & Garlic", "price": "$7.95" },
+        { "name": "Add Jack Daniel’s Shrimp Topping", "price": "$9.95" },
+        { "name": "Add Sautéed Crabmeat", "price": "$8.95" },
+        { "name": "Add Sautéed Spinach with Garlic", "price": "$4.95" },
+        { "name": "Add Cheese (American, Swiss, Pepperjack)", "price": "$2.50" },
+        { "name": "Add Bacon or Avocado", "price": "$1.00‑2.00" }
+      ],
+      "Drinks": [
+        { "name": "Soft Drink (Coke, Diet, Sprite, etc.)", "price": "$1.95" },
+        { "name": "Iced Tea", "price": "$1.95" },
+        { "name": "Coffee", "price": "$1.75" },
+        { "name": "Fruit Juice", "price": "$3.00–$5.95" },
+        { "name": "Milk", "price": "$2.75" },
+        { "name": "Specialty Brunch Drinks (champagne mixers, bloody mary, endless champagne)", "price": "$3.00+ depending on size" }
+      ],
+      "Steak Dinners": [
+        { "name": "Hamburger Steak (smothered onions, gravy)", "price": "$15.95" },
+        { "name": "Ribeye", "price": "$22.95" }
+      ]
+    }
   },
   "gallery": {
-    "image1": "https://s3-media0.fl.yelpcdn.com/bphoto/zdChLztoipKsBE2LuEPQ2A/o.jpg",
-    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/IX3mJ9i9LVTtffuzDgSDHw/o.jpg",
-    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/sHVAkL8-MSZOdBdnRb0ldg/o.jpg"
+    "image1": "https://s3-media0.fl.yelpcdn.com/bphoto/SoHua_u_RzfLjHWOahuHCA/o.jpg",
+    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/vUwWbNtolc1EsCnFHFo5Og/o.jpg",
+    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/GtZrtn33VT3mn8EZKWFjew/o.jpg"
   },
   "contact": {
-    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/1oxJBG3tl0LodfceStL0UA/o.jpg",
-    "phone": "+1 (225) 615‑5178",
+    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/xjHTXAp-THO85KiU0kj0qw/o.jpg",
+    "phone": "(225) 755‑3550",
     "email": "",
     "hours": {
-      "mon": "6:30 AM – 6:00 PM",
-      "tue": "6:30 AM – 6:00 PM",
-      "wed": "6:00 AM – 6:00 PM",
-      "thu": "6:00 AM – 6:00 PM",
-      "fri": "6:00 AM – 6:00 PM",
-      "sat": "8:00 AM – 3:00 PM",
-      "sun": "Closed"
+      "mon": "11:00 AM – 9:30 PM",
+      "tue": "11:00 AM – 9:30 PM",
+      "wed": "11:00 AM – 9:30 PM",
+      "thu": "11:00 AM – 9:30 PM",
+      "fri": "11:00 AM – 10:30 PM",
+      "sat": "11:00 AM – 10:30 PM",
+      "sun": "11:00 AM – 9:30 PM"
     },
-    "address": "7529 Jefferson Hwy, Baton Rouge, LA 70806",
-    "businessimage": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/468534312_18068079562659530_673161973404130247_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lzDQcRznFGQQ7kNvwF3wQL3&_nc_oc=Admqc2Z9PNc7nfAHjE6XQGw-9423HMjMT-m3ET_zN0RNY0LKsXhrtdbXpW7_i3zM774&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=KEAhhEXft3K-Uj_54yoh6A&oh=00_AfS_SzEakJESl0kcTXkqZIRu5eocLk96WCADimAdu4CL5A&oe=688A8B57"
+    "address": "15005 Market St, Baton Rouge, LA 70817",
+    "businessimage": "https://s3-media0.fl.yelpcdn.com/bphoto/tTNSPj5GIfnOqCSihFeTfA/o.jpg"
   },
   "footer": {
-    "businessname": "Healthy Vibes"
+    "businessname": "Jones Creek Cafe & Oyster Bar"
   }
 }
