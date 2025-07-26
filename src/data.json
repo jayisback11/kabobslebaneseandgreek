@@ -1,141 +1,78 @@
 {
   "theme": {
-    "color": "#865c44",
+    "color": "#a18579",
     "text": "white"
   },
   "nav": {
-    "businessname": "Jones Creek Cafe & Oyster Bar",
-    "businessname2": "Seafood • Po‑Boys • Creole"
+    "businessname": "Kabob’s Lebanese ",
+    "businessname2": "& Greek"
   },
   "welcome": {
-    "businessname": "Jones Creek Cafe & Oyster Bar",
-    "description": "A Baton Rouge favorite serving fresh Louisiana seafood, oysters, Creole‑style po’boys, gumbo, and coastal specialties since 1980.",
-    "description2": "Join us for char‑broiled oysters, hearty dinners, po‑boys, and classic seafood combos in a laid back, family‑friendly setting.",
-    "description3": "Enjoy daily lunch and dinner specials, Sunday brunch, and a full bar—including frozen cocktails and bar bites.",
-    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/bURgKczKWSW559rn0qo38Q/o.jpg",
-    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/iBnOV7R_9jbx0jGnkzlqag/o.jpg",
-    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/hFxWFCg_46KMn9RwlPf4zA/o.jpg"
+    "businessname": "Kabob’s Lebanese & Greek",
+    "description": "A Baton Rouge favorite offering authentic Lebanese and Greek cuisine with generous portions and vibrant flavors.",
+    "description2": "Try our kabob platters, lamb shank, fried cheese, seafood, fresh salads and vegetarian specialties in a cozy, family‑friendly setting.",
+    "description3": "Open Tuesday–Sunday for lunch and dinner—whether dine‑in or takeout, expect fresh ingredients and friendly service.",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/SoHua_u_RzfLjHWOahuHCA/o.jpg",
+    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/vUwWbNtolc1EsCnFHFo5Og/o.jpg",
+    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/GtZrtn33VT3mn8EZKWFjew/o.jpg"
   },
   "aboutussection": {
-    "businessname": "Jones Creek Cafe & Oyster Bar",
-    "aboutus": "Located at 15005 Market St in Baton Rouge, we’ve been a neighborhood seafood destination for decades. Our chefs work with the freshest Gulf ingredients.",
-    "aboutus2": "From family dinners to group gatherings, our hospitality, live entertainment, and covered patio offer a welcoming vibe.",
-    "aboutusimage": "https://s3-media0.fl.yelpcdn.com/bphoto/lL42kwQLHZRZG6OUPZc1Tw/o.jpg",
-    "imageinsidestore": "https://s3-media0.fl.yelpcdn.com/bphoto/bNpcyC_CP-ufDGcJLUnTug/o.jpg",
+    "businessname": "Kabob’s Lebanese & Greek",
+    "aboutus": "Located at 16569 George Oneal Rd in Baton Rouge, we serve classic Middle Eastern dishes—kabobs, shawarma, moussaka, seafood, and more using fresh ingredients.",
+    "aboutus2": "Hidden gem ambiance with warm service and large portions—perfect for family outings, groups, or casual Greek‑Lebanese dining.",
+    "aboutusimage": "https://s3-media0.fl.yelpcdn.com/bphoto/3A3QnKutUsz4NnaVJQu9MA/o.jpg",
+    "imageinsidestore": "https://s3-media0.fl.yelpcdn.com/bphoto/N6UOtTdwp3aaS-qq2Y-VFw/o.jpg",
     "socmed": {
       "instagram": "",
-      "facebook": "",
+      "facebook": "https://www.facebook.com/Kabobs-344223489041028/",
       "doordash": "",
       "ubereats": ""
     }
   },
   "menu": {
-    "menufilelink":"",
-    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/VgAB8pMDJefJc-J0WVaZbQ/o.jpg",
+    "menufilelink": "",
+    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/miaaMCRlz1Q_4UlvDs3wDg/o.jpg",
     "sections": {
-      "Appetizers": [
-        { "name": "Char‑Broiled Oysters (½ doz)", "price": "$13.50" },
-        { "name": "Char‑Broiled Oysters (Dozen)", "price": "$19.95" },
-        { "name": "Oysters on the Half Shell (½ doz)", "price": "$10.50" },
-        { "name": "Oysters on the Half Shell (Dozen)", "price": "$16.50" },
-        { "name": "JCC Wings", "price": "$15.95" },
-        { "name": "Jack Daniel’s Shrimp", "price": "$15.50" },
-        { "name": "Bacon‑Wrapped Shrimp Bienville", "price": "$14.50" },
-        { "name": "Market St. Crab Cakes", "price": "$14.25" },
-        { "name": "Spinach & Artichoke Dip", "price": "$13.95" },
-        { "name": "Shrimp Cocktail", "price": "$13.95" }
+      "Kabob Platters & Mezza": [
+        { "name": "Chicken Kabob", "price": "" },
+        { "name": "Lamb Kabob", "price": "" },
+        { "name": "Beef Kabob", "price": "" },
+        { "name": "Kafta Kabob", "price": "" },
+        { "name": "Shrimp Kabob", "price": "" },
+        { "name": "Kabob Sampler (Meza for 2)", "price": "" }
       ],
-      "Gumbo & Soup": [
-        { "name": "Creole Seafood & Sausage Gumbo (Cup)", "price": "$9.95" },
-        { "name": "Creole Seafood & Sausage Gumbo (Bowl)", "price": "$11.95" },
-        { "name": "Chicken & Sausage Gumbo (Cup)", "price": "$7.95" },
-        { "name": "Chicken & Sausage Gumbo (Bowl)", "price": "$9.95" },
-        { "name": "Shrimp & Corn Soup (Cup)", "price": "$9.95" },
-        { "name": "Shrimp & Corn Soup (Bowl)", "price": "$11.95" },
-        { "name": "French Onion Soup (Cup)", "price": "$7.95" },
-        { "name": "French Onion Soup (Bowl)", "price": "$9.95" }
+      "Plates & Specialty Dishes": [
+        { "name": "Lamb Shank", "price": "" },
+        { "name": "Meat Moussaka", "price": "" },
+        { "name": "Kabob Hamburger Steak", "price": "" },
+        { "name": "Shrimp Scampi", "price": "" },
+        { "name": "Red Fish (Alfredo style)", "price": "" },
+        { "name": "Broiled Fish", "price": "" }
       ],
-      "Salads": [
-        { "name": "Caesar Salad", "price": "$12.95" },
-        { "name": "Sensation Salad", "price": "$13.95" },
-        { "name": "Chef Salad", "price": "$13.95" },
-        { "name": "Grilled Chicken Pasta Salad", "price": "$14.95" },
-        { "name": "Shrimp Remoulade Salad", "price": "$14.95" },
-        { "name": "Seafood Salad", "price": "$16.95" }
+      "Sandwiches & Salads": [
+        { "name": "Chicken Shawarma Sandwich", "price": "" },
+        { "name": "Gyro Sandwich", "price": "" },
+        { "name": "Falafel Sandwich", "price": "" },
+        { "name": "Fatoush Salad", "price": "" },
+        { "name": "Tabouli Salad", "price": "" },
+        { "name": "Spinach Salad", "price": "" }
       ],
-      "Pasta Dinners": [
-        { "name": "Pasta Baton Rouge", "price": "$22.95" },
-        { "name": "Shrimp Fettuccine", "price": "$19.95" },
-        { "name": "Crawfish Fettuccine", "price": "$19.95" },
-        { "name": "Chicken & Andouille Pasta", "price": "$18.95" }
+      "Vegetarian & Stuffed Plates": [
+        { "name": "Vegetarian Plate", "price": "" },
+        { "name": "Meat Stuffed Squash", "price": "" },
+        { "name": "Meat Stuffed Bell Pepper", "price": "" }
       ],
-      "Po‑Boys": [
-        { "name": "Soft Shell Crab Po‑Boy", "price": "$15.95" },
-        { "name": "Boiled Shrimp with Provolone", "price": "$13.95" },
-        { "name": "George’s Combo Po‑Boy", "price": "$13.95" },
-        { "name": "Oyster Po‑Boy", "price": "$12.95" },
-        { "name": "Shrimp Po‑Boy", "price": "$11.95" },
-        { "name": "Catfish Po‑Boy", "price": "$10.95" },
-        { "name": "Crawfish Po‑Boy", "price": "$9.95" },
-        { "name": "Hot Roast Beef Po‑Boy", "price": "$11.95" },
-        { "name": "Sausage Po‑Boy", "price": "$9.95" },
-        { "name": "Regular Hamburger", "price": "$9.95" }
+      "Sides & Desserts": [
+        { "name": "Fried Cheese", "price": "" },
+        { "name": "Baklava", "price": "" },
+        { "name": "Rice Pilaf", "price": "" },
+        { "name": "Pita Bread & Olives", "price": "" }
       ],
-      "Seafood Dinners": [
-        { "name": "Seafood Platter", "price": "$24.95" },
-        { "name": "Soft Shell Crabs Dinner", "price": "$18.95" },
-        { "name": "Oysters Dinner", "price": "$19.95" },
-        { "name": "Shrimp Dinner", "price": "$18.95" },
-        { "name": "Catfish Dinner", "price": "$16.95" },
-        { "name": "Crawfish Dinner", "price": "$17.95" }
-      ],
-      "Seafood Specialties": [
-        { "name": "Grilled Redfish on the Half‑Shell", "price": "$21.95" },
-        { "name": "Boiled & Chilled Shrimp", "price": "$18.95" },
-        { "name": "Grilled Tilapia or Redfish", "price": "$19.95" },
-        { "name": "Catfish Acadian (with étouffée over rice)", "price": "$18.95" },
-        { "name": "Pecan‑Crusted Tilapia", "price": "$19.95" },
-        { "name": "Fish Almondine", "price": "$19.95" }
-      ],
-      "Lite Choices": [
-        { "name": "The Creek (grilled chicken on onion roll)", "price": "$12.95" },
-        { "name": "Grilled Chicken Wrap", "price": "$11.95" },
-        { "name": "Fish Wrap", "price": "$11.95" },
-        { "name": "Shrimp Wrap", "price": "$11.95" },
-        { "name": "Grilled Chicken Breast (dinner)", "price": "$11.95" }
-      ],
-      "Kid’s Menu": [
-        { "name": "Fried Catfish (under 12)", "price": "$7.95" },
-        { "name": "Fried Shrimp (under 12)", "price": "$7.95" },
-        { "name": "Cheese Quesadilla or Grilled Cheese", "price": "$5.95" },
-        { "name": "Chicken Tenders", "price": "$5.95" },
-        { "name": "Hamburger", "price": "$5.95" }
-      ],
-      "Sides & Add‑Ons": [
-        { "name": "Tiger Fries", "price": "$5.50" },
-        { "name": "Sweet Potato Fries", "price": "$5.50" },
-        { "name": "Onion Rings", "price": "$6.95" },
-        { "name": "Dinner Salad", "price": "$4.50" },
-        { "name": "Steamed Vegetables", "price": "$5.00" },
-        { "name": "Bread", "price": "$3.00" },
-        { "name": "Add Sautéed Shrimp & Garlic", "price": "$7.95" },
-        { "name": "Add Jack Daniel’s Shrimp Topping", "price": "$9.95" },
-        { "name": "Add Sautéed Crabmeat", "price": "$8.95" },
-        { "name": "Add Sautéed Spinach with Garlic", "price": "$4.95" },
-        { "name": "Add Cheese (American, Swiss, Pepperjack)", "price": "$2.50" },
-        { "name": "Add Bacon or Avocado", "price": "$1.00‑2.00" }
-      ],
-      "Drinks": [
-        { "name": "Soft Drink (Coke, Diet, Sprite, etc.)", "price": "$1.95" },
-        { "name": "Iced Tea", "price": "$1.95" },
-        { "name": "Coffee", "price": "$1.75" },
-        { "name": "Fruit Juice", "price": "$3.00–$5.95" },
-        { "name": "Milk", "price": "$2.75" },
-        { "name": "Specialty Brunch Drinks (champagne mixers, bloody mary, endless champagne)", "price": "$3.00+ depending on size" }
-      ],
-      "Steak Dinners": [
-        { "name": "Hamburger Steak (smothered onions, gravy)", "price": "$15.95" },
-        { "name": "Ribeye", "price": "$22.95" }
+      "Beverages": [
+        { "name": "Fresh Lemonade", "price": "" },
+        { "name": "Fresh Orange Juice", "price": "" },
+        { "name": "Lebanese Iced Tea", "price": "" },
+        { "name": "Soft Drinks", "price": "" }
       ]
     }
   },
@@ -145,22 +82,22 @@
     "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/GtZrtn33VT3mn8EZKWFjew/o.jpg"
   },
   "contact": {
-    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/xjHTXAp-THO85KiU0kj0qw/o.jpg",
-    "phone": "(225) 755‑3550",
+    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/tUEmNtGBL3KzxewBOQXXpw/o.jpg",
+    "phone": "(225) 412‑4366",
     "email": "",
     "hours": {
-      "mon": "11:00 AM – 9:30 PM",
-      "tue": "11:00 AM – 9:30 PM",
-      "wed": "11:00 AM – 9:30 PM",
-      "thu": "11:00 AM – 9:30 PM",
-      "fri": "11:00 AM – 10:30 PM",
-      "sat": "11:00 AM – 10:30 PM",
-      "sun": "11:00 AM – 9:30 PM"
+      "mon": "Closed",
+      "tue": "11:00 AM – 9:00 PM",
+      "wed": "11:00 AM – 9:00 PM",
+      "thu": "11:00 AM – 9:00 PM",
+      "fri": "11:00 AM – 9:00 PM",
+      "sat": "11:00 AM – 9:00 PM",
+      "sun": "11:00 AM – 9:00 PM"
     },
-    "address": "15005 Market St, Baton Rouge, LA 70817",
-    "businessimage": "https://s3-media0.fl.yelpcdn.com/bphoto/tTNSPj5GIfnOqCSihFeTfA/o.jpg"
+    "address": "16569 George Oneal Rd, Baton Rouge, LA 70817",
+    "businessimage": "https://s3-media0.fl.yelpcdn.com/bphoto/A5Ksr2yiuYYeX6AdIRn7Bw/o.jpg"
   },
   "footer": {
-    "businessname": "Jones Creek Cafe & Oyster Bar"
+    "businessname": "Kabob’s Lebanese & Greek"
   }
 }
