@@ -1,59 +1,59 @@
 {
   "theme": {
-    "color": "#773118",
+    "color": "#28A745",
     "text": "white"
   },
   "nav": {
-    "businessname": "Bistro Italia",
-    "businessname2": "Italian Restaurant"
+    "businessname": "Healthy Vibes",
+    "businessname2": "Juice & Smoothie Bar"
   },
   "welcome": {
-    "businessname": "Bistro Italia",
-    "description": "At Bistro Italia, enjoy authentic Italian cuisine made from scratch with fresh, high-quality ingredients. From pasta to pizza, everything is prepared with passion.",
-    "description2": "Indulge in classics like lasagna, chicken parmesan, fettuccine alfredo, and handmade calzones, or explore our signature entrées and seafood dishes.",
-    "description3": "Relax in a cozy, family-friendly atmosphere and savor a true taste of Italy right here in Baton Rouge.",
-    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/WDLmMa-qY6IoTwG3ZpCNbg/o.jpg",
-    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/roAht58SFJ0VYcUK5G-iUA/o.jpg",
-    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/l46pEOmo-pbJPbQjUWkVPQ/o.jpg"
+    "businessname": "Healthy Vibes",
+    "description": "At Healthy Vibes, enjoy nourishing juices, smoothies, loaded teas, protein‑rich meal replacement shakes, and wellness shots made from premium ingredients.",
+    "description2": "From energizing teas to hydration-focused blends, each drink is crafted to support health, fitness, and flavor.",
+    "description3": "Stop in for a wellness boost in a vibrant, community‑oriented setting in Baton Rouge.",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/Xr31nJKn6fnATJiF0beeSA/o.jpg", 
+    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/1SA_7qmxVOzGxAJA0idBKA/o.jpg", 
+    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/PVmdjtVY2d2hyXlRI-Heqw/o.jpg"
   },
   "aboutussection": {
-    "businessname": "Bistro Italia",
-    "aboutus": "Bistro Italia is a warm, welcoming spot in Baton Rouge serving hearty Italian fare made from scratch, including pastas, pizzas, and flavorful entrées.",
-    "aboutus2": "Locally loved for its generous portions, family atmosphere, and friendly service—every meal feels like Sunday dinner.",
-    "aboutusimage": "https://s3-media0.fl.yelpcdn.com/bphoto/lXpKar2B3LRcPrvYsT7VUA/o.jpg",
-    "imageinsidestore": "https://s3-media0.fl.yelpcdn.com/bphoto/JGkF6Xw_LW9PZpuu-Dzj7A/o.jpg",
+    "businessname": "Healthy Vibes",
+    "aboutus": "Healthy Vibes is a local Baton Rouge spot specializing in wholesome drinks like Herbalife‑inspired meal shakes, loaded teas, smoothies, protein coffee and more.",
+    "aboutus2": "Known for a friendly owner, upbeat atmosphere, and a community vibe, ideal for health-conscious locals.",
+    "aboutusimage": "https://s3-media0.fl.yelpcdn.com/bphoto/1jWRaQy8lZKZ8q_a-Cb6bg/o.jpg",
+    "imageinsidestore": "https://s3-media0.fl.yelpcdn.com/bphoto/5QT33T2xaMV5bfzHV8K23A/o.jpg",
     "socmed": {
-      "instagram": "https://www.instagram.com/explore/locations/276860050/bistro-italia/",
-      "facebook": "https://www.facebook.com/bistroitaliaBR/",
+      "instagram": "https://www.instagram.com/healthy_vibes_br/?hl=en",
+      "facebook": "https://www.facebook.com/HealthyVibesBR/?ref=pl_edit_xav_ig_profile_page_web#",
       "doordash": "",
       "ubereats": ""
     }
   },
   "menu": {
-    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/iXM5bq1Cyce2lpr0rGxKVw/o.jpg"
+    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/X5sdgaJIkGvUaDdenvePkw/o.jpg"
   },
   "gallery": {
-    "image1": "https://s3-media0.fl.yelpcdn.com/bphoto/864IFwJY25jaWlvdimH3-Q/o.jpg",
-    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/E9cpWxQXSsB5JgPWv_ScHA/o.jpg",
-    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/jKE5EYg_9sfnUMdrfaj3kA/o.jpg"
+    "image1": "https://s3-media0.fl.yelpcdn.com/bphoto/zdChLztoipKsBE2LuEPQ2A/o.jpg",
+    "image2": "https://s3-media0.fl.yelpcdn.com/bphoto/IX3mJ9i9LVTtffuzDgSDHw/o.jpg",
+    "image3": "https://s3-media0.fl.yelpcdn.com/bphoto/sHVAkL8-MSZOdBdnRb0ldg/o.jpg"
   },
   "contact": {
-    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/otS69C1DsiG3npNztzqsOQ/o.jpg",
-    "phone": "+1 (225) 227-2695",
+    "backgroundimage": "https://s3-media0.fl.yelpcdn.com/bphoto/1oxJBG3tl0LodfceStL0UA/o.jpg",
+    "phone": "+1 (225) 615‑5178",
     "email": "",
     "hours": {
-      "mon": "Closed",
-      "tue": "11:00 AM – 2:00PM & 5:00PM - 9:00 PM",
-      "wed": "11:00 AM – 2:00PM & 5:00PM - 9:00 PM",
-      "thu": "11:00 AM – 2:00PM & 5:00PM - 9:00 PM",
-      "fri": "11:00 AM – 2:00PM & 5:00PM - 9:00 PM",
-      "sat": "4:00PM 9:00 PM",
+      "mon": "6:30 AM – 6:00 PM",
+      "tue": "6:30 AM – 6:00 PM",
+      "wed": "6:00 AM – 6:00 PM",
+      "thu": "6:00 AM – 6:00 PM",
+      "fri": "6:00 AM – 6:00 PM",
+      "sat": "8:00 AM – 3:00 PM",
       "sun": "Closed"
     },
-    "address": "11903 Coursey Blvd, Baton Rouge, LA 70817",
-    "businessimage": "https://s3-media0.fl.yelpcdn.com/bphoto/nFsCwrJU6o9sDlqT-GHLfg/o.jpg"
+    "address": "7529 Jefferson Hwy, Baton Rouge, LA 70806",
+    "businessimage": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/468534312_18068079562659530_673161973404130247_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lzDQcRznFGQQ7kNvwF3wQL3&_nc_oc=Admqc2Z9PNc7nfAHjE6XQGw-9423HMjMT-m3ET_zN0RNY0LKsXhrtdbXpW7_i3zM774&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=KEAhhEXft3K-Uj_54yoh6A&oh=00_AfS_SzEakJESl0kcTXkqZIRu5eocLk96WCADimAdu4CL5A&oe=688A8B57"
   },
   "footer": {
-    "businessname": "Bistro Italia"
+    "businessname": "Healthy Vibes"
   }
 }

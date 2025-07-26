@@ -39,144 +39,108 @@ const MenuList = () => {
         {data.welcome.businessname} Menu
       </h1>
 
-      {/* Appetizers */}
+      {/* Signature Smoothies */}
       <div style={sectionStyle}>
-        <h2 style={headerStyle}>Appetizers</h2>
+        <h2 style={headerStyle}>Signature Smoothies</h2>
         <ul style={listStyle}>
           <li style={itemStyle}>
-            <span>Meat Head Eggroll</span>
+            <span>Daisy Duke (Strawberry, Watermelon, Pomegranate)</span>
             <span style={priceStyle}>$12.00</span>
           </li>
           <li style={itemStyle}>
-            <span>Garlic Knots</span>
-            <span style={priceStyle}>$11.00</span>
+            <span>L A Sunrise (Strawberry, Orange, Pineapple)</span>
+            <span style={priceStyle}>$9.00</span>
           </li>
           <li style={itemStyle}>
-            <span>Meatballs Marinara</span>
+            <span>Peach on the Beach (Peach, Mango, Pina Colada)</span>
             <span style={priceStyle}>$12.00</span>
           </li>
           <li style={itemStyle}>
-            <span>Fried Ravioli</span>
-            <span style={priceStyle}>$11.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Fried Mozzarella</span>
-            <span style={priceStyle}>$11.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Focaccia Bread</span>
-            <span style={priceStyle}>$12.00</span>
+            <span>Berry Blitz (Blueberry, Raspberry, Vanilla)</span>
+            <span style={priceStyle}>$10.00</span>
           </li>
         </ul>
       </div>
 
-      {/* Salads */}
+      {/* Loaded Teas */}
       <div style={sectionStyle}>
-        <h2 style={headerStyle}>Salads</h2>
+        <h2 style={headerStyle}>Loaded Teas</h2>
         <ul style={listStyle}>
           <li style={itemStyle}>
-            <span>The Bistro Salad (S 6 / L 12)</span>
-            <span style={priceStyle}></span>
+            <span>Tropical Thunder (Passion Fruit, Pineapple, Green Tea)</span>
+            <span style={priceStyle}>$9.00</span>
           </li>
           <li style={itemStyle}>
-            <span>Sensation Salad</span>
-            <span style={priceStyle}>$11.00</span>
+            <span>Galaxy Pop (Cherry, Blue Raspberry, Aloe)</span>
+            <span style={priceStyle}>$9.00</span>
           </li>
           <li style={itemStyle}>
-            <span>Bistro Wedge Salad</span>
-            <span style={priceStyle}>$13.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Caesar Salad (S 6 / L 12)</span>
-            <span style={priceStyle}></span>
-          </li>
-          <li style={itemStyle}>
-            <span>House Italian (S 6 / L 12)</span>
-            <span style={priceStyle}></span>
-          </li>
-          <li style={itemStyle}>
-            <span>Blue Cheese Wedge Salad</span>
-            <span style={priceStyle}>$13.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Caprese Salad</span>
-            <span style={priceStyle}>$11.00</span>
-          </li>
-        </ul>
-        <ul style={listStyle}>
-          <li style={itemStyle}>
-            <span>Add Grilled Chicken + Garlic Bread</span>
-            <span style={priceStyle}>$6.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Add Shrimp + Garlic Bread</span>
-            <span style={priceStyle}>$7.00</span>
+            <span>Island Energy (Peach, Guava, Herbal Tea Base)</span>
+            <span style={priceStyle}>$9.00</span>
           </li>
         </ul>
       </div>
 
-      {/* Soup */}
+      {/* Protein Coffee */}
       <div style={sectionStyle}>
-        <h2 style={headerStyle}>Soup</h2>
+        <h2 style={headerStyle}>Protein Coffee</h2>
         <ul style={listStyle}>
           <li style={itemStyle}>
-            <span>Homemade Tomato Basil (Cup / Bowl)</span>
-            <span style={priceStyle}>$5.00 / $7.00</span>
+            <span>Mocha Power (Mocha, Protein Blend, Iced Coffee)</span>
+            <span style={priceStyle}>$8.00</span>
+          </li>
+          <li style={itemStyle}>
+            <span>Vanilla Wake-Up (Vanilla, Almond Milk, 15g Protein)</span>
+            <span style={priceStyle}>$8.00</span>
           </li>
         </ul>
       </div>
 
-      {/* Pasta */}
+      {/* Feel Better Shots */}
       <div style={sectionStyle}>
-        <h2 style={headerStyle}>Pasta</h2>
+        <h2 style={headerStyle}>Feel Better Shots</h2>
         <ul style={listStyle}>
           <li style={itemStyle}>
-            <span>Chicken Parmesan</span>
-            <span style={priceStyle}>$19.00</span>
+            <span>Immune Boost Shot (Vitamin C, Zinc, Elderberry)</span>
+            <span style={priceStyle}>$5.00</span>
           </li>
           <li style={itemStyle}>
-            <span>Eggplant Parmesan</span>
-            <span style={priceStyle}>$17.00</span>
+            <span>Focus Shot (L-Theanine, B12, Green Tea Extract)</span>
+            <span style={priceStyle}>$5.00</span>
+          </li>
+        </ul>
+      </div>
+
+      {/* Protein Snacks */}
+      <div style={sectionStyle}>
+        <h2 style={headerStyle}>Protein Snacks</h2>
+        <ul style={listStyle}>
+          <li style={itemStyle}>
+            <span>Chocolate Peanut Butter Bar</span>
+            <span style={priceStyle}>$4.00</span>
           </li>
           <li style={itemStyle}>
-            <span>Spaghetti & Meatballs</span>
-            <span style={priceStyle}>$17.00</span>
+            <span>Almond Crunch Energy Bites (3‑pack)</span>
+            <span style={priceStyle}>$3.50</span>
+          </li>
+        </ul>
+      </div>
+
+      {/* Add-Ons & Boosters */}
+      <div style={sectionStyle}>
+        <h2 style={headerStyle}>Add-Ons & Boosters</h2>
+        <ul style={listStyle}>
+          <li style={itemStyle}>
+            <span>Add Collagen</span>
+            <span style={priceStyle}>$1.00</span>
           </li>
           <li style={itemStyle}>
-            <span>Eggplant Meatball Rotatini</span>
-            <span style={priceStyle}>$19.00</span>
+            <span>Add Extra Protein</span>
+            <span style={priceStyle}>$1.50</span>
           </li>
           <li style={itemStyle}>
-            <span>Classic Lasagna</span>
-            <span style={priceStyle}>$19.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Spinach & Artichoke Baked Ziti</span>
-            <span style={priceStyle}>$17.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Ravioli & Meatballs</span>
-            <span style={priceStyle}>$17.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Chicken Alfredo</span>
-            <span style={priceStyle}>$17.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Pesto Chicken Penne</span>
-            <span style={priceStyle}>$19.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Shrimp Primavera</span>
-            <span style={priceStyle}>$19.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Shrimp Florentine Ravioli</span>
-            <span style={priceStyle}>$19.00</span>
-          </li>
-          <li style={itemStyle}>
-            <span>Shrimp Alfredo</span>
-            <span style={priceStyle}>$18.00</span>
+            <span>Add Fiber Blend</span>
+            <span style={priceStyle}>$1.00</span>
           </li>
         </ul>
       </div>

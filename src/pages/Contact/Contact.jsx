@@ -36,7 +36,7 @@ function Contact() {
       <div style={{ width: "100%", height: "400px" }}>
         <iframe
           title="Google Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.865771319717!2d-91.04826!3d30.411550000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626bb4632dca2e1%3A0xf4b1682e0067214a!2sBistro%20Italia!5e0!3m2!1sen!2sus!4v1753481271851!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1029.1177974827583!2d-91.1103796008026!3d30.433329500000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a398f4f86879%3A0xe9742a92b9515793!2sHealthy%20Vibes!5e1!3m2!1sen!2sus!4v1753526425862!5m2!1sen!2sus"
           width="100%"
           height="100%"
           style={{ border: 0 }}

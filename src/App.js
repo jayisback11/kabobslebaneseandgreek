@@ -1,7 +1,7 @@
 import "./App.css";
 import { Link, Routes, Route } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPizzaSlice } from "@fortawesome/free-solid-svg-icons";
+import { faAppleWhole } from "@fortawesome/free-solid-svg-icons";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -24,7 +24,7 @@ function App() {
               className="navbar-brand d-flex align-items-center"
               style={{ color: data.theme.color }}
             >
-              <FontAwesomeIcon icon={faPizzaSlice} size="xl" />
+              <FontAwesomeIcon icon={faAppleWhole} size="xl" />
               <span className="ms-3 lh-1 fw-semibold">
                 {data.nav.businessname}
                 <br></br>
@@ -69,18 +69,17 @@ function App() {
               </Link>
             </Nav>
             <Link
-              to="/contact"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               <button
                 type="button"
-                className="btn  rounded-0 text-capitalize my-3 my-lg-0 ms-lg-4 text-nowrap"
+                className="btn  rounded-sm text-capitalize my-3 my-lg-0 ms-lg-4 text-nowrap"
                 style={{
                   backgroundColor: data.theme.color,
                   color: data.theme.text,
                 }}
               >
-                Contact Us
+                {data.contact.phone}
               </button>
             </Link>
           </Navbar.Collapse>
